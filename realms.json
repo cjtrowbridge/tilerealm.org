@@ -1,0 +1,332 @@
+{
+  "realms": {
+    "default": {
+      "gridSize": 8,
+      "defaultBackground": "grass.png",
+      "background": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "spawnable/paths/FieldsTile_01.png", "spawnable/paths/FieldsTile_01.png", "spawnable/paths/FieldsTile_01.png", "spawnable/paths/FieldsTile_01.png", "spawnable/paths/FieldsTile_01.png", "spawnable/paths/FieldsTile_01.png", ""],
+        ["", "spawnable/paths/FieldsTile_01.png", "", "", "", "", "spawnable/paths/FieldsTile_01.png", ""],
+        ["", "spawnable/paths/FieldsTile_01.png", "", "", "", "", "spawnable/paths/FieldsTile_01.png", ""]
+      ],
+      "foreground": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "passable": [
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true]
+      ],
+      "mapTriggers": [
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [{"trigger": "teleport", "params": ["inn", 0, 4]}], [], [], [], [], [{"trigger": "teleport", "params": ["ruins", 0, 4]}], []]
+      ],
+      "players": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "npcs": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ]
+    },
+    "inn": {
+      "gridSize": 8,
+      "defaultBackground": "wood.png",
+      "background": [
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "foreground": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "passable": [
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true]
+      ],
+      "mapTriggers": [
+        [[], [], [], [], [{"trigger": "teleport", "params": ["default", 7, 1]}], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []]
+      ],
+      "players": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "npcs": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ]
+    },
+    "ruins": {
+      "gridSize": 8,
+      "defaultBackground": "stone.png",
+      "background": [
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "spawnable/paths/FieldsTile_01.png", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "foreground": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "passable": [
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true],
+        [true, true, true, true, true, true, true, true]
+      ],
+      "mapTriggers": [
+        [[], [], [], [], [{"trigger": "teleport", "params": ["default", 7, 6]}], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []],
+        [[], [], [], [], [], [], [], []]
+      ],
+      "players": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ],
+      "npcs": [
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""],
+        ["", "", "", "", "", "", "", ""]
+      ]
+    }
+  },
+  "localPeers": [
+    {
+      "deviceName": "Faerealms-Server-01",
+      "realm": "default",
+      "services": [
+        {
+          "name": "AVX",
+          "description": "Advanced Vector Extensions for AI processing",
+          "endpoint": "/avx"
+        },
+        {
+          "name": "Tor",
+          "description": "Tor service for anonymous browsing",
+          "endpoint": "/tor"
+        },
+        {
+          "name": "IPFS",
+          "description": "InterPlanetary File System for decentralized storage",
+          "endpoint": "/ipfs"
+        }
+      ],
+      "networkAddress": "192.168.1.10",
+      "lastSeen": "2024-08-16T14:35:00Z"
+    },
+    {
+      "deviceName": "Mystic-Gateway",
+      "realm": "sanctuary",
+      "services": [
+        {
+          "name": "Oracle",
+          "description": "Mystical AI Oracle providing insights and predictions",
+          "endpoint": "/oracle"
+        },
+        {
+          "name": "IPFS",
+          "description": "InterPlanetary File System for decentralized storage",
+          "endpoint": "/ipfs"
+        },
+        {
+          "name": "MeshNet",
+          "description": "Local mesh network for peer-to-peer communication",
+          "endpoint": "/meshnet"
+        }
+      ],
+      "networkAddress": "192.168.1.11",
+      "lastSeen": "2024-08-16T14:32:10Z"
+    },
+    {
+      "deviceName": "Arcane-Nexus",
+      "realm": "arcadia",
+      "services": [
+        {
+          "name": "Tor",
+          "description": "Tor service for anonymous browsing",
+          "endpoint": "/tor"
+        },
+        {
+          "name": "IPFS",
+          "description": "InterPlanetary File System for decentralized storage",
+          "endpoint": "/ipfs"
+        },
+        {
+          "name": "ArcaneForge",
+          "description": "Local crafting system for creating magical items",
+          "endpoint": "/arcaneforge"
+        }
+      ],
+      "networkAddress": "192.168.1.12",
+      "lastSeen": "2024-08-16T14:34:45Z"
+    }
+  ],
+  "remotePeers": [
+    {
+      "peerName": "Shadow-Network",
+      "realm": "shadowlands",
+      "services": [
+        {
+          "name": "DarkAI",
+          "description": "AI service for secure, anonymous queries",
+          "endpoint": "/darkai"
+        },
+        {
+          "name": "Tor",
+          "description": "Tor service for anonymous browsing",
+          "endpoint": "/tor"
+        }
+      ],
+      "address": {
+        "type": "tor",
+        "fqdn": "shadownetworkxyz.onion"
+      },
+      "lastSeen": "2024-08-16T14:31:22Z"
+    },
+    {
+      "peerName": "Star-Forge",
+      "realm": "forge",
+      "services": [
+        {
+          "name": "IPFS",
+          "description": "InterPlanetary File System for decentralized storage",
+          "endpoint": "/ipfs"
+        },
+        {
+          "name": "ForgeCraft",
+          "description": "Crafting system for advanced items",
+          "endpoint": "/forgecraft"
+        }
+      ],
+      "address": {
+        "type": "ipfs",
+        "fqdn": "QmYwAPJzv5CZsnAzt8auVZRnGWWT6vY88MJU6JBf1H6zDJ"
+      },
+      "lastSeen": "2024-08-16T14:29:10Z"
+    },
+    {
+      "peerName": "Solaris",
+      "realm": "solarium",
+      "services": [
+        {
+          "name": "SunAI",
+          "description": "AI service harnessing solar data for predictions",
+          "endpoint": "/sunai"
+        },
+        {
+          "name": "HTTP",
+          "description": "HTTP service for web-based interactions",
+          "endpoint": "/http"
+        }
+      ],
+      "address": {
+        "type": "http",
+        "fqdn": "solaris.example.com"
+      },
+      "lastSeen": "2024-08-16T14:33:45Z"
+    }
+  ]
+}
