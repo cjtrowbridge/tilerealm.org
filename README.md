@@ -73,16 +73,7 @@ Here’s the detailed plan for the next steps, focusing on the development and r
 
 ### **Next Steps**
 
-I am working on three initial releases which will allow a wide variety of use cases and runtime environments while using minimal dependencies, in order to enable rapid development across platforms with minimal resource requirements. 
-
-#### **PHP Server Development (Version 0.1)**
-   - **Objective**: Develop a PHP-based server that offers a more accessible and flexible environment for users to interact with the game via a web browser.
-   - **Tasks**:
-     - **Set Up the PHP Server**: Install and configure a LAMP (Linux, Apache, MySQL, PHP) stack to host the PHP server.
-     - **Implement Game Logic in PHP**: Translate the core game functions into PHP, ensuring compatibility with the web environment and database integration.
-     - **Create a Web-Based Interface**: Develop a PHP-based front-end that users can access through their web browsers, with an emphasis on user-friendly design and ease of access.
-     - **Testing and Deployment**: Test the PHP server under various conditions, including different devices and browsers, to ensure broad compatibility.
-   - **Release**: Deploy the PHP server and provide instructions for users to access the game via their web browsers.
+I am working on two initial releases which will allow a wide variety of use cases and runtime environments while using minimal dependencies, in order to enable rapid development across platforms with minimal resource requirements. 
 
 #### **C++ Server Development (Version 0.1)**
    - **Objective**: Develop a robust and high-performance server in C++ that handles the core game logic and interactions. This server will be accessed via a web browser.
@@ -92,6 +83,7 @@ I am working on three initial releases which will allow a wide variety of use ca
      - **Web Browser Interface**: Create a lightweight web interface that connects to the C++ server, allowing users to explore realms, interact with objects, and communicate with peers.
      - **Testing and Optimization**: Perform stress tests to ensure the server can handle multiple users concurrently, and optimize for low-latency performance.
    - **Release**: Package the server and web interface for deployment, providing clear instructions for users to connect via their browsers.
+   - **Note**: Version 0.1 of the C++ server is only targeting linux. 
 
 #### **Java App Development (Version 0.1)**
    - **Objective**: Develop a cross-platform Java app that runs on Android, iOS, and Windows. The app can be accessed either by a web server or through a traditional gaming front-end.
